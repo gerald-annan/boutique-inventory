@@ -129,6 +129,10 @@ BoutiqueInventory.total_quantity(%{
 
 ## Source
 
+### Solved by
+
+- @gerald-annan
+
 ### Created by
 
 - @angelikatyborska
