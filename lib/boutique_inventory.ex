@@ -4,7 +4,7 @@ defmodule BoutiqueInventory do
     Enum.sort_by(inventory, & &1.price, :asc)
   end
 
-  def with_missing_price(inventory) do
+   def with_missing_price(inventory) do
     Enum.filter(inventory, fn item -> item.price == nil end)
   end
 
